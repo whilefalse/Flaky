@@ -1,0 +1,9 @@
+Requires web.py, python2.6
+
+To run:
+  On each server:
+     - edit the uid=1 line to a unique id
+     - run python server.py <PORT_NO>
+  For client:
+     - run python client.py <INTERVAL IN SECONDS>
+     - check log.txt for any errors
